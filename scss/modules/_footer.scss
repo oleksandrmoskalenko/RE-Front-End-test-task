@@ -1,0 +1,47 @@
+.footer {
+  height: 180px;
+
+  &__wrapper {
+    justify-content: space-between;
+  }
+
+  &__column {
+    font-size: 14px;
+    font-weight: 300;
+    color: $Grey;
+
+    &--info {
+      width: 320px;
+      margin-right: 173px;
+    }
+  }
+
+  &__company-logo {
+    margin-bottom: 16px;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    line-height: 22.5px;
+    font-weight: 600;
+    color: $Black;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    color: $Pale-Violet;
+    opacity: 0.75;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  &__social-media-link {
+    &:first-child{
+      margin-left: 9px;
+    }
+
+    &:not(:last-child) {
+      margin-right: 36px;
+    }
+  }
+}

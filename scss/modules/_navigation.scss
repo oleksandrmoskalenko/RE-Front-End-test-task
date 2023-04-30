@@ -1,0 +1,50 @@
+.navigation {
+  position: absolute;
+  top: 46px;
+  left: calc(50% - 600px);
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    background: $White-10;
+    border: 1px solid $White-30;
+    border-radius: 17px;
+    padding: 0 16px;
+
+    &:not(:first-child) {
+      margin-left: 24px;
+    }
+
+    &:last-child {
+      height: 46px;
+      padding: 0 24px;
+      margin-left: 56px;
+      background-color: $Pale-Mint;
+
+      & > .menu__link {
+        color: $Forest-Green;
+      }
+    }
+  }
+
+  &__link {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: $Alice-Blue;
+  }
+}

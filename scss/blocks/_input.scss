@@ -1,0 +1,76 @@
+.input {
+  &__form {
+    height: 54px;
+    width: 496px;
+    position: relative;
+  }
+
+  &__field {
+    height: 54px;
+    width: 496px;
+    border: 0;
+    border-radius: 27px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 64px;
+    color: $Grey;
+
+    &::placeholder {
+      color: $Grey;
+    }
+
+    &::-webkit-input-placeholder {
+      color: $Grey;
+    }
+
+    &::-moz-placeholder {
+      color: $Grey;
+    }
+
+    &::-ms-input-placeholder {
+      color: $Grey;
+    }
+
+    &:-moz-placeholder {
+      color: $Grey;
+    }
+  }
+
+  &__icon {
+    @include pos(absolute, 19px, 26px);
+
+    &--header {
+      @include pos(absolute, 17px, 27px);
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 129px;
+    height: 46px;
+    background-color: $Green;
+    border: 0;
+    border-radius: 23px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: $White;
+    @include pos(absolute, 4px, false, false, 4px);
+
+    &--header {
+      width: 109px;
+      justify-content: flex-start;
+      padding-left: 16px;
+
+      &::after {
+        content: url(../../img//header/header-quotation-mark.svg);
+        margin-left: 13px;
+        margin-top: 3px;
+      }
+    }
+  }
+}
+
+

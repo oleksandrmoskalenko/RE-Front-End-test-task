@@ -1,0 +1,19 @@
+// Base
+@import "base/_reset";
+@import "base/_variables";
+@import "base/_mixins";
+
+// Layout
+@import "layout/_general";
+
+// Independent blocks styles
+@import "blocks/_wrapper";
+@import "blocks/_list";
+@import "blocks/_company-logo";
+@import "blocks/_input";
+
+// Modules styles
+@import "modules/_navigation";
+@import "modules/_header";
+@import "modules/_subscribe";
+@import "modules/_footer";
