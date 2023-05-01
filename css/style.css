@@ -453,7 +453,7 @@ body {
   border: 0;
   border-radius: 23px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
   color: #ffffff;
   position: absolute;
@@ -521,6 +521,46 @@ body {
   font-size: 32px;
   line-height: 40px;
   color: #1B1C57;
+}
+
+.contact-block {
+  display: flex;
+}
+
+.contact-block__icon-wrapper {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 28px;
+  filter: drop-shadow(0px 9px 32px rgba(89, 92, 219, 0.1));
+  margin-right: 24px;
+}
+
+.contact-block__icon-wrapper img {
+  object-fit: cover;
+  object-position: -33px -24px;
+}
+
+.contact-block__person-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 59px;
+}
+
+.contact-block__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0E1735;
+  margin-bottom: 4px;
+}
+
+.contact-block__job-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .navigation {
@@ -736,11 +776,130 @@ body {
 .sell {
   height: 459px;
   margin-bottom: 120px;
-  border-bottom: 1px solid black;
+}
+
+.sell__row {
+  width: 100%;
+  margin: 0;
+}
+
+.sell__column {
+  padding: 0;
+}
+
+.sell__column--left {
+  padding: 25px 0 0 40px;
 }
 
 .sell__title {
   margin-bottom: 16px;
+}
+
+.sell__text {
+  width: 420px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #626687;
+  opacity: 0.75;
+  margin-bottom: 16px;
+}
+
+.sell__subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1B1C57;
+  opacity: 0.75;
+  margin-bottom: 24px;
+}
+
+.sell__block {
+  width: 345px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.sell__block-item {
+  width: 145px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.sell__details-icon {
+  margin-right: 20px;
+}
+
+.sell__details-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #3C4563;
+}
+
+.sell__line {
+  width: 440px;
+  height: 2px;
+  background-color: #F0F3FD;
+  margin-bottom: 32px;
+}
+
+.sell__button {
+  width: 163px;
+  position: relative;
+  justify-content: end;
+  padding-right: 16px;
+}
+
+.sell__button-wrapper {
+  position: relative;
+}
+
+.sell__button-wrapper img {
+  position: absolute;
+  top: 16.5px;
+  left: 16px;
+}
+
+.sell__gallery {
+  position: relative;
+  height: 459px;
+}
+
+.sell__house-pic {
+  border-radius: 4px;
+}
+
+.sell__house-pic--1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sell__house-pic--2 {
+  position: absolute;
+  bottom: 0;
+  left: 72px;
+}
+
+.sell__house-pic--3 {
+  position: absolute;
+  right: 124px;
+  bottom: 0;
+}
+
+.sell__house-pic--4 {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
 }
 
 .review {

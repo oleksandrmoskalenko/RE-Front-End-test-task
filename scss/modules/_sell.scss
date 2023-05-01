@@ -1,10 +1,120 @@
 .sell {
   height: 459px;
   margin-bottom: 120px;
-  
-  border-bottom: 1px solid black;
+
+  &__row {
+    width: 100%;
+    margin: 0;
+  }
+
+  &__column {
+    padding: 0;
+
+    &--left {
+      padding: 25px 0 0 40px;
+    }
+  }
 
   &__title {
     margin-bottom: 16px;
+  }
+
+  &__text {
+    width: 420px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: $Pale-Violet;
+    opacity: 0.75;
+    margin-bottom: 16px;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: $Midnight-Blue;
+    opacity: 0.75;
+    margin-bottom: 24px;
+  }
+
+  &__block {
+    width: 345px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    &-item {
+      width: 145px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 26px;
+    }
+  }
+
+  &__details {
+    &-icon {
+      margin-right: 20px;
+    }
+
+    &-text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: capitalize;
+      color: $Dark-Grey;
+    }
+  }
+
+  &__line {
+    width: 440px;
+    height: 2px;
+    background-color: $Alice-Blue;
+    margin-bottom: 32px;
+  }
+
+  &__button {
+    width: 163px;
+    @include pos(relative, false, false);
+    justify-content: end;
+    padding-right: 16px;
+
+    &-wrapper {
+      position: relative;
+
+      & img {
+        @include pos(absolute, 16.5px, false, false, 16px);
+      }
+    }
+  }
+
+  &__gallery {
+    position: relative;
+    height: 459px;
+  }
+
+  &__house-pic {
+    border-radius: 4px;
+
+    &--1 {
+      @include pos(absolute, 0, 0);
+    }
+
+    &--2 {
+      @include pos(absolute, false, false, 0, 72px);
+    }
+
+    &--3 {
+      @include pos(absolute, false, 124px, 0);
+    }
+
+    &--4 {
+      @include pos(absolute, false, 20px, 0);
+    }
   }
 }
