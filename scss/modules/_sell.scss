@@ -58,7 +58,56 @@
 
   &__details {
     &-icon {
-      margin-right: 20px;
+      &-wrapper {
+        position: relative;
+        width: 24px;
+        margin-right: 20px;
+        align-items: center;
+      }
+
+      &--2-1 {
+        @include pos(absolute, false, 4.5px, 5.5px, false);
+      }
+
+      &--2-2 {
+        @include pos(absolute, false, 1px, 0px, false);
+      }
+
+      &--2-3 {
+        @include pos(absolute, -1px, false, false, 0);
+      }
+
+      &--2-4 {
+        @include pos(absolute, 1px, false, false, 1.5px);
+      }
+
+      &--2-5 {
+        @include pos(absolute, false, 8.5px, 5.5px, false);
+      }
+
+      &--2-6 {
+        @include pos(absolute, false, 8.5px, 2.5px, false);
+      }
+
+      &--2-7 {
+        @include pos(absolute, false, 12px, 3px, false);
+      }
+
+      &--3-1 {
+        @include pos(absolute, false, false, 3px, 0);
+      }
+
+      &--3-2 {
+        @include pos(absolute, -3px, false, false, 3px);
+      }
+
+      &--4-1 {
+        @include pos(absolute, -11px, false, false, 0);
+      }
+
+      &--4-2 {
+        @include pos(absolute, -7px, false, false, 4px);
+      }
     }
 
     &-text {
@@ -115,6 +164,14 @@
 
     &--4 {
       @include pos(absolute, false, 20px, 0);
+    }
+
+    &--video-1 {
+      @include pos(absolute, 184px, 220px, false, false, 1000);
+    }
+
+    &--video-2 {
+      @include pos(absolute, 196.5px, 234.5px, false, false, 1001);
     }
   }
 }
