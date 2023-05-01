@@ -473,6 +473,56 @@ body {
   margin-top: 3px;
 }
 
+.title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+
+.title-block--left {
+  margin: 0;
+  align-items: flex-start;
+}
+
+.title-block__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-block__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #F59E0B;
+  margin-bottom: 12px;
+}
+
+.title-block__line {
+  width: 32px;
+  height: 1px;
+  background-color: #F59E0B;
+  margin-bottom: 8px;
+}
+
+.title-block__line--left {
+  position: absolute;
+  top: 8.5px;
+  left: -40px;
+}
+
+.title-block__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1B1C57;
+}
+
 .navigation {
   position: absolute;
   top: 46px;
@@ -679,29 +729,37 @@ body {
 .recommendation {
   height: 662px;
   margin-bottom: 120px;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   background-color: #E0E3EB;
 }
 
 .sell {
   height: 459px;
   margin-bottom: 120px;
-  border: 1px solid black;
-  background-color: #E0E3EB;
+  border-bottom: 1px solid black;
+}
+
+.sell__title {
+  margin-bottom: 16px;
 }
 
 .review {
   height: 664px;
   margin-bottom: 120px;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   background-color: #E0E3EB;
 }
 
 .tips {
   height: 753px;
   margin-bottom: 120px;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   background-color: #E0E3EB;
+}
+
+.tips__title {
+  width: 450px;
+  text-align: center;
 }
 
 .subscribe {

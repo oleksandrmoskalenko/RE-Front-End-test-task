@@ -2,6 +2,11 @@
   height: 753px;
   margin-bottom: 120px;
 
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   background-color: $Lavender-Blue;
+
+  &__title {
+    width: 450px;
+    text-align: center;
+  }
 }
