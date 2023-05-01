@@ -37,10 +37,10 @@
   }
 
   &__icon {
-    @include pos(absolute, 19px, 26px);
+    @include pos(absolute, 19px, false, false, 26px);
 
     &--header {
-      @include pos(absolute, 17px, 27px);
+      @include pos(absolute, 17px, false, false, 27px);
     }
   }
 
@@ -57,7 +57,7 @@
     font-weight: 600;
     text-transform: capitalize;
     color: $White;
-    @include pos(absolute, 4px, false, false, 4px);
+    @include pos(absolute, 4px, 4px);
 
     &--header {
       width: 109px;

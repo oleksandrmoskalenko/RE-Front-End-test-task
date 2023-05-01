@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 32px;
   }
 
   &__title {
@@ -31,7 +32,7 @@
   }
 
   &__icon {
-    @include pos(absolute, 19px, 26px);
+    @include pos(absolute, 19px, false, false, 26px);
   }
 
   &__button {
@@ -44,26 +45,26 @@
     font-weight: 600;
     text-transform: capitalize;
     color: $White;
-    @include pos(absolute, 4px, 363px);
+    @include pos(absolute, false, false, 4px, 363px);
   }
 
   &__img {
 
     &--pic {
       &-1 {
-        @include pos(absolute, 38px, 44px);
+        @include pos(absolute, 38px, false, false, 44px);
       }
   
       &-4 {
-        @include pos(absolute, 178px, 195px);
+        @include pos(absolute, 178px, false, false, 195px);
       }
   
       &-5 {
-        @include pos(absolute, 44px, 930px);
+        @include pos(absolute, 44px, false, false, 930px);
       }
   
       &-8 {
-        @include pos(absolute, 197px, 1072px);
+        @include pos(absolute, 197px, false, false, 1072px);
       }
     }
 
@@ -74,19 +75,19 @@
 
       &--pic {
         &-2 {
-          @include pos(absolute, 71px, 204px);
+          @include pos(absolute, 71px, false, false, 204px);
         }
     
         &-3 {
-          @include pos(absolute, 173px, 67px);
+          @include pos(absolute, 173px, false, false, 67px);
         }
 
         &-6 {
-          @include pos(absolute, 107px, 1082px);
+          @include pos(absolute, 107px, false, false, 1082px);
         }
     
         &-7 {
-          @include pos(absolute, 143px, 964px);
+          @include pos(absolute, 143px, false, false, 964px);
         }
       }
 

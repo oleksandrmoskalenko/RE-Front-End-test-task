@@ -1,7 +1,5 @@
 .navigation {
-  position: absolute;
-  top: 46px;
-  left: calc(50% - 600px);
+  @include pos(absolute, 46px, false, false, calc(50% - 600px), 1000);
   width: 1200px;
   display: flex;
   justify-content: space-between;
@@ -36,6 +34,17 @@
         color: $Forest-Green;
       }
     }
+  }
+
+  &__select {
+    border: none;
+    background-color: transparent;
+    color: $Alice-Blue;
+  }
+
+  &__option {
+    background-color: $Alice-Blue;
+    color: $Midnight-Blue;
   }
 
   &__link {

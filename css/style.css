@@ -477,6 +477,7 @@ body {
   position: absolute;
   top: 46px;
   left: calc(50% - 600px);
+  z-index: 1000;
   width: 1200px;
   display: flex;
   justify-content: space-between;
@@ -512,6 +513,17 @@ body {
 
 .menu__item:last-child > .menu__link {
   color: #047857;
+}
+
+.menu__select {
+  border: none;
+  background-color: transparent;
+  color: #F0F3FD;
+}
+
+.menu__option {
+  background-color: #F0F3FD;
+  color: #1B1C57;
 }
 
 .menu__link {
@@ -550,8 +562,77 @@ body {
 }
 
 .header__column--right {
+  position: relative;
   background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url(../../img/header/header-bg.png);
   border-radius: 0px 0px 0px 80px;
+}
+
+.header__slider {
+  position: absolute;
+  bottom: 48px;
+  left: 48px;
+  width: 672px;
+  height: 104px;
+}
+
+.header__slider-images {
+  margin-right: 16px;
+  display: flex;
+}
+
+.header__slider-image-wrapper {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 28px;
+  filter: drop-shadow(0px 9px 32px rgba(89, 92, 219, 0.1));
+}
+
+.header__slider-image-wrapper img {
+  object-fit: cover;
+  object-position: -33px -24px;
+}
+
+.header__slider-image-wrapper--margin {
+  margin-left: -28px;
+}
+
+.header__slider-block {
+  text-transform: capitalize;
+}
+
+.header__slider-subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1B1C57;
+}
+
+.header__slider-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  color: #68799F;
+}
+
+.header__slide {
+  width: intrinsic;
+  /* Safari/WebKit uses a non-standard name */
+  /* Firefox/Gecko */
+  /* Chrome */
+  width: max-content;
+  padding: 24px;
+  height: 104px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 32px;
+}
+
+.header__slide:not(:last-child) {
+  margin-right: 16px;
 }
 
 .header__title {
@@ -607,6 +688,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 32px;
 }
 
 .subscribe__title {
@@ -643,7 +725,7 @@ body {
   text-transform: capitalize;
   color: #ffffff;
   position: absolute;
-  top: 4px;
+  bottom: 4px;
   left: 363px;
 }
 

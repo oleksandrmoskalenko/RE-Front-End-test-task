@@ -1,8 +1,8 @@
-@mixin pos($pos: absolute, $t: false, $l: false, $b: false, $r: false, $z: false) {
+@mixin pos($pos: absolute, $t: false, $r: false, $b: false, $l: false, $z: false) {
 	position: $pos;
 	@if $t { top: $t; }
-	@if $l { left: $l; }
-	@if $b { bottom: $b; }
 	@if $r { right: $r; }
+	@if $b { bottom: $b; }
+	@if $l { left: $l; }
 	@if $z { z-index: $z; }
 }
