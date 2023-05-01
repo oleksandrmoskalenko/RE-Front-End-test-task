@@ -538,6 +538,7 @@ body {
 .header {
   position: relative;
   height: 720px;
+  margin-bottom: 120px;
 }
 
 .header__wrapper {
@@ -673,6 +674,34 @@ body {
 
 .header__logo:not(:last-child) {
   margin-right: 32px;
+}
+
+.recommendation {
+  height: 662px;
+  margin-bottom: 120px;
+  border: 1px solid black;
+  background-color: #E0E3EB;
+}
+
+.sell {
+  height: 459px;
+  margin-bottom: 120px;
+  border: 1px solid black;
+  background-color: #E0E3EB;
+}
+
+.review {
+  height: 664px;
+  margin-bottom: 120px;
+  border: 1px solid black;
+  background-color: #E0E3EB;
+}
+
+.tips {
+  height: 753px;
+  margin-bottom: 120px;
+  border: 1px solid black;
+  background-color: #E0E3EB;
 }
 
 .subscribe {
