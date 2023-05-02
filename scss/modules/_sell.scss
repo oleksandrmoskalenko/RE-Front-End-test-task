@@ -2,6 +2,10 @@
   height: 459px;
   margin-bottom: 120px;
 
+  &__wrapper {
+    width: 1200px;
+  }
+
   &__row {
     width: 100%;
     margin: 0;
@@ -147,23 +151,30 @@
     height: 459px;
   }
 
+  &__slider {
+    width: 488px;
+    height: 416px;
+    border-radius: 4px;
+    @include pos(absolute, 0, 0, false, false, 1);
+  }
+
+  &__slide {
+    position: relative;
+  }
+
   &__house-pic {
     border-radius: 4px;
 
     &--1 {
-      @include pos(absolute, 0, 0);
+      @include pos(absolute, false, false, 0, 72px, 2);
     }
 
-    &--5 {
-      @include pos(absolute, false, false, 0, 72px);
+    &--2 {
+      @include pos(absolute, false, 124px, 0, false, 2);
     }
 
-    &--6 {
-      @include pos(absolute, false, 124px, 0);
-    }
-
-    &--7 {
-      @include pos(absolute, false, 20px, 0);
+    &--3 {
+      @include pos(absolute, false, 20px, 0, false, 2);
     }
 
     &--video-1 {
@@ -171,7 +182,7 @@
     }
 
     &--video-2 {
-      @include pos(absolute, 196.5px, 234.5px, false, false, 1001);
+      @include pos(absolute, 196.5px, 235.5px, false, false, 1001);
     }
   }
 }

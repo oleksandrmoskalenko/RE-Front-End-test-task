@@ -1,7 +1,8 @@
-const headerSwiper = new Swiper('.header__slider', {
+const sellSwiper = new Swiper('.sell__slider', {
   direction: 'horizontal',
   slidesPerView: 'auto',
   spaceBetween: 0,
+  centeredSlides: true,
   loop: true,
 
   autoplay: {

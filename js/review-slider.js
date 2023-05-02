@@ -1,8 +1,8 @@
-const swiper2 = new Swiper('.review__slider', {
+const reviewSwiper = new Swiper('.review__slider', {
   direction: 'horizontal',
   slidesPerView: 'auto',
   centeredSlides: true,
-  spaceBetween : 0,
+  spaceBetween: 0,
   loop: true,
 
   autoplay: {

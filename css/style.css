@@ -794,6 +794,10 @@ body {
   margin-bottom: 120px;
 }
 
+.sell__wrapper {
+  width: 1200px;
+}
+
 .sell__row {
   width: 100%;
   margin: 0;
@@ -959,32 +963,43 @@ body {
   height: 459px;
 }
 
+.sell__slider {
+  width: 488px;
+  height: 416px;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.sell__slide {
+  position: relative;
+}
+
 .sell__house-pic {
   border-radius: 4px;
 }
 
 .sell__house-pic--1 {
   position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.sell__house-pic--5 {
-  position: absolute;
   bottom: 0;
   left: 72px;
+  z-index: 2;
 }
 
-.sell__house-pic--6 {
+.sell__house-pic--2 {
   position: absolute;
   right: 124px;
   bottom: 0;
+  z-index: 2;
 }
 
-.sell__house-pic--7 {
+.sell__house-pic--3 {
   position: absolute;
   right: 20px;
   bottom: 0;
+  z-index: 2;
 }
 
 .sell__house-pic--video-1 {
@@ -997,7 +1012,7 @@ body {
 .sell__house-pic--video-2 {
   position: absolute;
   top: 196.5px;
-  right: 234.5px;
+  right: 235.5px;
   z-index: 1001;
 }
 
