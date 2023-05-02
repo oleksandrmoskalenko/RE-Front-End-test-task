@@ -9,5 +9,9 @@
     font-weight: 700;
     color: $Midnight-Blue;
     text-transform: capitalize;
+
+    &:hover {
+      color: $Forest-Green;
+    }
   }
 }

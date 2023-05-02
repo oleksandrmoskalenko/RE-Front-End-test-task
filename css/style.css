@@ -394,6 +394,10 @@ body {
   text-transform: capitalize;
 }
 
+.company-logo__title:hover {
+  color: #047857;
+}
+
 .input__form {
   height: 54px;
   width: 496px;
