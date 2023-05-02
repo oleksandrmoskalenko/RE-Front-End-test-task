@@ -34,6 +34,10 @@
     &:-moz-placeholder {
       color: $Grey;
     }
+
+    &:focus {
+      border: 2px solid $Green;
+    }
   }
 
   &__icon {
@@ -54,6 +58,11 @@
     text-transform: capitalize;
     color: $White;
     @include pos(absolute, 4px, 4px);
+
+    &:hover {
+      background-color: $Forest-Green;
+      filter: brightness(1.05);
+    }
   }
 }
 

@@ -431,16 +431,14 @@ body {
   color: #888B97;
 }
 
+.input__field:focus {
+  border: 2px solid #10B981;
+}
+
 .input__icon {
   position: absolute;
   top: 19px;
   left: 26px;
-}
-
-.input__icon--header {
-  position: absolute;
-  top: 17px;
-  left: 27px;
 }
 
 .input__button {
@@ -459,6 +457,11 @@ body {
   position: absolute;
   top: 4px;
   right: 4px;
+}
+
+.input__button:hover {
+  background-color: #047857;
+  filter: brightness(1.05);
 }
 
 .title-block {
@@ -610,9 +613,34 @@ body {
   color: #047857;
 }
 
+.menu__item:last-child:hover {
+  background-color: #10B981;
+}
+
+.menu__item:last-child:hover > .menu__link {
+  color: #ffffff;
+}
+
+.menu__item:hover {
+  background-color: #F0F3FD;
+}
+
+.menu__item:hover > .menu__link {
+  color: #1B1C57;
+}
+
+.menu__item:hover > .menu__select {
+  color: #1B1C57;
+}
+
 .menu__select {
   border: none;
   background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
   color: #F0F3FD;
 }
 
@@ -623,7 +651,7 @@ body {
 
 .menu__link {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 18px;
   text-transform: capitalize;

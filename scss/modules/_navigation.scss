@@ -33,12 +33,37 @@
       & > .menu__link {
         color: $Forest-Green;
       }
+
+      &:hover {
+        background-color: $Green;
+      
+        & > .menu__link {
+          color: $White;
+        }
+      }
+    }
+
+    &:hover {
+      background-color: $Alice-Blue;
+
+      & > .menu__link {
+        color: $Midnight-Blue;
+      }
+
+      & > .menu__select {
+        color: $Midnight-Blue;
+      }
     }
   }
 
   &__select {
     border: none;
     background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
     color: $Alice-Blue;
   }
 
@@ -48,9 +73,8 @@
   }
 
   &__link {
-    
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     text-transform: capitalize;
