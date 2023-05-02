@@ -177,12 +177,8 @@
       @include pos(absolute, false, 20px, 0, false, 2);
     }
 
-    &--video-1 {
+    &--video {
       @include pos(absolute, 184px, 220px, false, false, 1000);
-    }
-
-    &--video-2 {
-      @include pos(absolute, 196.5px, 235.5px, false, false, 1001);
     }
   }
 }

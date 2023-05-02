@@ -453,7 +453,7 @@ body {
   border: 0;
   border-radius: 23px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: capitalize;
   color: #ffffff;
   position: absolute;
@@ -560,6 +560,7 @@ body {
   line-height: 24px;
   color: #0E1735;
   margin-bottom: 4px;
+  text-transform: capitalize;
 }
 
 .contact-block__name--small {
@@ -1002,18 +1003,11 @@ body {
   z-index: 2;
 }
 
-.sell__house-pic--video-1 {
+.sell__house-pic--video {
   position: absolute;
   top: 184px;
   right: 220px;
   z-index: 1000;
-}
-
-.sell__house-pic--video-2 {
-  position: absolute;
-  top: 196.5px;
-  right: 235.5px;
-  z-index: 1001;
 }
 
 .review {
@@ -1111,13 +1105,141 @@ body {
 .tips {
   height: 753px;
   margin-bottom: 120px;
-  border-bottom: 1px solid black;
-  background-color: #E0E3EB;
+}
+
+.tips__wrapper {
+  flex-direction: column;
+}
+
+.tips__column {
+  padding: 0;
+}
+
+.tips__column--left {
+  padding-right: 28px;
+}
+
+.tips__column--right {
+  padding-left: 40px;
 }
 
 .tips__title {
   width: 450px;
   text-align: center;
+  margin-bottom: 24px;
+}
+
+.tips__button {
+  width: 118px;
+  height: 46px;
+  padding: 0 16px;
+  position: relative;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.tips__row {
+  width: 100%;
+  margin: 0;
+}
+
+.article-block {
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.article-block--big {
+  flex-direction: column;
+  margin: 0;
+}
+
+.article-block__img {
+  width: 200px;
+  height: 144px;
+  margin-right: 32px;
+  border-radius: 16px;
+}
+
+.article-block__img--big {
+  width: 560px;
+  height: 280px;
+  margin: 0 0 24px;
+}
+
+.article-block__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-block__author-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.article-block__author-pic-wrapper {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+
+.article-block__author-pic-wrapper img {
+  object-fit: cover;
+  object-position: -31px -22px;
+  filter: drop-shadow(0px 9px 32px rgba(89, 92, 219, 0.1));
+}
+
+.article-block__author-name {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3C4563;
+  text-transform: capitalize;
+}
+
+.article-block__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #1B1C57;
+  margin-bottom: 12px;
+}
+
+.article-block__title--big {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.article-block__description {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626687;
+  opacity: 0.75;
+}
+
+.article-block__date-wrapper {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.article-block__time-icon {
+  margin-right: 14px;
+}
+
+.article-block__line-symbol {
+  margin: 0 4px;
 }
 
 .subscribe {
