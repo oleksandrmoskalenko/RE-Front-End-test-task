@@ -66,11 +66,11 @@
       }
 
       &--2-1 {
-        @include pos(absolute, false, 4.5px, 5.5px, false);
+        @include pos(absolute, false, 4.5px, 5.5px);
       }
 
       &--2-2 {
-        @include pos(absolute, false, 1px, 0px, false);
+        @include pos(absolute, false, 1px, 0px);
       }
 
       &--2-3 {
@@ -82,15 +82,15 @@
       }
 
       &--2-5 {
-        @include pos(absolute, false, 8.5px, 5.5px, false);
+        @include pos(absolute, false, 8.5px, 5.5px);
       }
 
       &--2-6 {
-        @include pos(absolute, false, 8.5px, 2.5px, false);
+        @include pos(absolute, false, 8.5px, 2.5px);
       }
 
       &--2-7 {
-        @include pos(absolute, false, 12px, 3px, false);
+        @include pos(absolute, false, 12px, 3px);
       }
 
       &--3-1 {
@@ -154,15 +154,15 @@
       @include pos(absolute, 0, 0);
     }
 
-    &--2 {
+    &--5 {
       @include pos(absolute, false, false, 0, 72px);
     }
 
-    &--3 {
+    &--6 {
       @include pos(absolute, false, 124px, 0);
     }
 
-    &--4 {
+    &--7 {
       @include pos(absolute, false, 20px, 0);
     }
 

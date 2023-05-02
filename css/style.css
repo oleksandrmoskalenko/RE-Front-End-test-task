@@ -536,6 +536,12 @@ body {
   margin-right: 24px;
 }
 
+.contact-block__icon-wrapper--small {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+}
+
 .contact-block__icon-wrapper img {
   object-fit: cover;
   object-position: -33px -24px;
@@ -556,11 +562,21 @@ body {
   margin-bottom: 4px;
 }
 
+.contact-block__name--small {
+  font-size: 14px;
+  line-height: 22px;
+}
+
 .contact-block__job-title {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+.contact-block__job-title--small {
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .navigation {
@@ -953,19 +969,19 @@ body {
   right: 0;
 }
 
-.sell__house-pic--2 {
+.sell__house-pic--5 {
   position: absolute;
   bottom: 0;
   left: 72px;
 }
 
-.sell__house-pic--3 {
+.sell__house-pic--6 {
   position: absolute;
   right: 124px;
   bottom: 0;
 }
 
-.sell__house-pic--4 {
+.sell__house-pic--7 {
   position: absolute;
   right: 20px;
   bottom: 0;
@@ -986,10 +1002,95 @@ body {
 }
 
 .review {
-  height: 664px;
   margin-bottom: 120px;
-  border-bottom: 1px solid black;
-  background-color: #E0E3EB;
+}
+
+.review__wrapper {
+  width: 1440px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review__title {
+  margin-bottom: 40px;
+}
+
+.review__slider {
+  width: 100%;
+  height: 562px;
+}
+
+.review__slide {
+  width: 740px;
+  position: relative;
+  margin-right: 56px;
+}
+
+.review-block {
+  position: absolute;
+  top: 256px;
+  right: 64px;
+  width: 612px;
+  height: 249px;
+  padding: 32px;
+  background-color: #ffffff;
+  box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-block__subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #1B1C57;
+  margin-bottom: 16px;
+}
+
+.review-block__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626687;
+  opacity: 0.75;
+  margin-bottom: 24px;
+}
+
+.review-block__wrapper {
+  position: relative;
+}
+
+.review__rating {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.review__star-icon {
+  width: 23px;
+  height: 23px;
+  margin-right: 18.5px;
+}
+
+.review__score {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #3C4563;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #3C4563;
 }
 
 .tips {
