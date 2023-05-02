@@ -122,6 +122,11 @@
     color: $Midnight-Blue;
     text-transform: capitalize;
     margin-bottom: 24px;
+
+    &--outline {
+      -webkit-text-stroke: 1px $Midnight-Blue;
+      -webkit-text-fill-color: transparent;
+    }
   }
 
   &__text {

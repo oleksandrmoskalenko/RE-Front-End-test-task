@@ -792,6 +792,11 @@ body {
   margin-bottom: 24px;
 }
 
+.header__title--outline {
+  -webkit-text-stroke: 1px #1B1C57;
+  -webkit-text-fill-color: transparent;
+}
+
 .header__text {
   font-style: normal;
   font-weight: 300;
