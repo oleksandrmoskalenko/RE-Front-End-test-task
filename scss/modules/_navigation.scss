@@ -20,6 +20,16 @@
     border-radius: 17px;
     padding: 0 16px;
 
+    &--dropdown {
+      width: 122px;
+      position: relative;
+
+      &::after {
+        content: url(../../img/header/header-quotation-mark-right.svg);
+        @include pos(absolute, 6px, 14px, false, false, -1);
+      }
+    }
+
     &:not(:first-child) {
       margin-left: 24px;
     }
@@ -57,6 +67,7 @@
   }
 
   &__select {
+    width: 100%;
     border: none;
     background-color: transparent;
     font-style: normal;
@@ -65,6 +76,9 @@
     line-height: 18px;
     text-transform: capitalize;
     color: $Alice-Blue;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
 
   &__option {

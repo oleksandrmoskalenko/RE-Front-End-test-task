@@ -602,6 +602,19 @@ body {
   padding: 0 16px;
 }
 
+.menu__item--dropdown {
+  width: 122px;
+  position: relative;
+}
+
+.menu__item--dropdown::after {
+  content: url(../../img/header/header-quotation-mark-right.svg);
+  position: absolute;
+  top: 6px;
+  right: 14px;
+  z-index: -1;
+}
+
 .menu__item:not(:first-child) {
   margin-left: 24px;
 }
@@ -638,6 +651,7 @@ body {
 }
 
 .menu__select {
+  width: 100%;
   border: none;
   background-color: transparent;
   font-style: normal;
@@ -646,6 +660,9 @@ body {
   line-height: 18px;
   text-transform: capitalize;
   color: #F0F3FD;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .menu__option {
