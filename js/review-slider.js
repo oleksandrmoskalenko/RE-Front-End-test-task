@@ -2,6 +2,7 @@ const reviewSwiper = new Swiper('.review__slider', {
   direction: 'horizontal',
   slidesPerView: 'auto',
   centeredSlides: true,
+  grabCursor: true,
   spaceBetween: 0,
   loop: true,
 
