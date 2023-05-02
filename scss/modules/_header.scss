@@ -30,6 +30,22 @@
     }
   }
 
+  &__button {
+    width: 109px;
+    justify-content: flex-start;
+    padding-left: 16px;
+
+    &::after {
+      content: url(../../img/header/header-quotation-mark.svg);
+      margin-left: 13px;
+      margin-top: 3px;
+    }
+  }
+
+  &__icon {
+    @include pos(absolute, 17px, false, false, 27px);
+  }
+
   &__slider {
     @include pos(absolute, false, false, 48px, 48px);
     width: 672px;

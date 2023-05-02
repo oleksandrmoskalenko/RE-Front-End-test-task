@@ -38,10 +38,6 @@
 
   &__icon {
     @include pos(absolute, 19px, false, false, 26px);
-
-    &--header {
-      @include pos(absolute, 17px, false, false, 27px);
-    }
   }
 
   &__button {
@@ -58,18 +54,6 @@
     text-transform: capitalize;
     color: $White;
     @include pos(absolute, 4px, 4px);
-
-    &--header {
-      width: 109px;
-      justify-content: flex-start;
-      padding-left: 16px;
-
-      &::after {
-        content: url(../../img//header/header-quotation-mark.svg);
-        margin-left: 13px;
-        margin-top: 3px;
-      }
-    }
   }
 }
 

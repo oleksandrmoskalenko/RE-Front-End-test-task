@@ -461,18 +461,6 @@ body {
   right: 4px;
 }
 
-.input__button--header {
-  width: 109px;
-  justify-content: flex-start;
-  padding-left: 16px;
-}
-
-.input__button--header::after {
-  content: url(../../img//header/header-quotation-mark.svg);
-  margin-left: 13px;
-  margin-top: 3px;
-}
-
 .title-block {
   display: flex;
   flex-direction: column;
@@ -673,6 +661,24 @@ body {
   position: relative;
   background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url(../../img/header/header-bg.png);
   border-radius: 0px 0px 0px 80px;
+}
+
+.header__button {
+  width: 109px;
+  justify-content: flex-start;
+  padding-left: 16px;
+}
+
+.header__button::after {
+  content: url(../../img/header/header-quotation-mark.svg);
+  margin-left: 13px;
+  margin-top: 3px;
+}
+
+.header__icon {
+  position: absolute;
+  top: 17px;
+  left: 27px;
 }
 
 .header__slider {
