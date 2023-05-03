@@ -1554,3 +1554,11 @@ body {
   bottom: -120px;
   z-index: -1;
 }
+
+.footer__icon {
+  fill: #3C4563;
+}
+
+.footer__icon:hover {
+  fill: #10B981;
+}

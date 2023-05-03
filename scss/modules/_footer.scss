@@ -49,4 +49,12 @@
   &__shape {
     @include pos(absolute, false, -80px, -120px, false, -1);    
   }
+
+  &__icon {
+    fill: $Dark-Grey;
+
+    &:hover {
+      fill: $Green;
+    }
+  }
 }
