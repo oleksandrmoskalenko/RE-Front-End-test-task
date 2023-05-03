@@ -482,6 +482,9 @@ body {
   align-items: center;
   margin: 0 auto;
   text-transform: capitalize;
+  position: relative;
+  z-index: 2;
+  width: max-content;
 }
 
 .title-block--left {
@@ -1050,6 +1053,7 @@ body {
 .recommendation {
   height: 662px;
   margin-bottom: 120px;
+  position: relative;
 }
 
 .recommendation__wrapper {
@@ -1063,7 +1067,11 @@ body {
 
 .recommendation__slider {
   width: 1200px;
-  height: 552px;
+  height: 662px;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 600px);
+  padding-top: 110px;
 }
 
 .recommendation__slide {
@@ -1078,6 +1086,44 @@ body {
 .recommendation__slide-pic {
   border-radius: 24px;
   margin-bottom: 24px;
+}
+
+.recommendation__button-prev, .recommendation__button-next {
+  width: 60px;
+  height: 52px;
+  border-radius: 32px;
+  background-color: #E0E3EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommendation__button-prev > svg, .recommendation__button-next > svg {
+  fill: #3C4563;
+}
+
+.recommendation__button-prev::after, .recommendation__button-next::after {
+  content: '';
+}
+
+.recommendation__button-prev:hover, .recommendation__button-next:hover {
+  background-color: #10B981;
+}
+
+.recommendation__button-prev:hover > svg, .recommendation__button-next:hover > svg {
+  fill: #ffffff;
+}
+
+.recommendation__button-prev {
+  position: absolute;
+  top: 18px;
+  right: 76px;
+}
+
+.recommendation__button-next {
+  position: absolute;
+  top: 18px;
+  right: 0;
 }
 
 .recommendation-block__wrapper {
@@ -1383,7 +1429,7 @@ body {
   position: absolute;
   right: -125px;
   bottom: 70px;
-  z-index: -1;
+  z-index: -1000;
 }
 
 .review {

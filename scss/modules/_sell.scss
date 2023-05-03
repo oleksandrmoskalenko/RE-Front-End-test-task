@@ -195,6 +195,6 @@
   }
 
   &__shape {
-    @include pos(absolute, false, -125px, 70px, false, -1);      
+    @include pos(absolute, false, -125px, 70px, false, -1000);      
   }
 }

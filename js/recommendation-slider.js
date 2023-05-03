@@ -8,4 +8,9 @@ const recommendationSwiper = new Swiper('.recommendation__slider', {
   autoplay: {
     delay: 3000,
   },
+
+  navigation: {
+    nextEl: '.recommendation__button-next',
+    prevEl: '.recommendation__button-prev',
+  },
 });

@@ -4,6 +4,9 @@
   align-items: center;
   margin: 0 auto;
   text-transform: capitalize;
+  position: relative;
+  z-index: 2;
+  width: max-content;
 
   &--left {
     margin: 0;
