@@ -18,6 +18,10 @@
       height: 280px;
       margin: 0 0 24px;
     }
+
+    &:hover {
+      filter: brightness(1.08);
+    }
   }
 
   &__content {
@@ -30,6 +34,10 @@
       display: flex;
       align-items: center;
       margin-bottom: 12px;
+
+      &:hover img {
+        filter: brightness(1.08);
+      }
     }
 
     &-pic {
@@ -91,10 +99,20 @@
       font-weight: 300;
       font-size: 14px;
       line-height: 24px;
+
+      &:hover {
+        font-weight: 400;
+        color: $Dark-Grey;
+
+        & > svg {
+          fill: $Dark-Grey;
+        }
+      }
     }
   }
 
   &__time-icon {
+    fill: $Grey;
     margin-right: 14px;
   }
 

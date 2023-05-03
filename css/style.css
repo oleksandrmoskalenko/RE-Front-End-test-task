@@ -598,6 +598,10 @@ body {
   margin: 0 0 24px;
 }
 
+.article-block__img:hover {
+  filter: brightness(1.08);
+}
+
 .article-block__content {
   display: flex;
   flex-direction: column;
@@ -607,6 +611,10 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 12px;
+}
+
+.article-block__author-wrapper:hover img {
+  filter: brightness(1.08);
 }
 
 .article-block__author-pic-wrapper {
@@ -666,7 +674,17 @@ body {
   line-height: 24px;
 }
 
+.article-block__date-wrapper:hover {
+  font-weight: 400;
+  color: #3C4563;
+}
+
+.article-block__date-wrapper:hover > svg {
+  fill: #3C4563;
+}
+
 .article-block__time-icon {
+  fill: #888B97;
   margin-right: 14px;
 }
 
@@ -1499,6 +1517,10 @@ body {
 .subscribe__img-wrapper img {
   object-fit: cover;
   object-position: -33px -24px;
+}
+
+.subscribe__icon {
+  fill: #3B82F6;
 }
 
 .footer {
