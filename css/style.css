@@ -707,7 +707,7 @@ body {
 }
 
 .menu__item--dropdown::after {
-  content: url(../../img/header/header-quotation-mark-right.svg);
+  content: url("../img/header/header-quotation-mark-right.svg");
   position: absolute;
   top: 6px;
   right: 14px;
@@ -811,7 +811,7 @@ body {
 
 .header__column--right {
   position: relative;
-  background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url(../../img/header/header-bg.png);
+  background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url("../img/header/header-bg.png");
   border-radius: 0px 0px 0px 80px;
 }
 
@@ -822,7 +822,7 @@ body {
 }
 
 .header__button::after {
-  content: url(../../img/header/header-quotation-mark.svg);
+  content: url("../img/header/header-quotation-mark.svg");
   margin-left: 13px;
   margin-top: 3px;
 }
@@ -1334,7 +1334,7 @@ body {
 }
 
 .subscribe__wrapper {
-  background: url("../../img/subscribe/subscribe-bg.png");
+  background: url("../img/subscribe/subscribe-bg.png");
   background-size: cover;
   height: 312px;
   position: relative;

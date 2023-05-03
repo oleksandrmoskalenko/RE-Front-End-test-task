@@ -25,7 +25,7 @@
       position: relative;
 
       &::after {
-        content: url(../../img/header/header-quotation-mark-right.svg);
+        content: url('../img/header/header-quotation-mark-right.svg');
         @include pos(absolute, 6px, 14px);
       }
 
