@@ -6,6 +6,7 @@
   &__wrapper {
     width: 1440px;
     max-width: 1440px;
+    position: relative;
   }
 
   &__row {
@@ -156,5 +157,9 @@
 
   &__logo:not(:last-child) {
     margin-right: 32px;
+  }
+
+  &__shape {
+    @include pos(absolute, 0, false, false, 0, -1);      
   }
 }

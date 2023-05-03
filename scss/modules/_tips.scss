@@ -4,6 +4,7 @@
 
   &__wrapper {
     flex-direction: column;
+    position: relative;
   }
 
   &__column {
@@ -36,5 +37,9 @@
   &__row {
     width: 100%;
     margin: 0;
+  }
+
+  &__shape {
+    @include pos(absolute, -140px, false, false, -120px, -1);      
   }
 }

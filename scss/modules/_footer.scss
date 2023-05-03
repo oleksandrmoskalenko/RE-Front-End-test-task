@@ -3,6 +3,7 @@
 
   &__wrapper {
     justify-content: space-between;
+    position: relative;
   }
 
   &__column {
@@ -43,5 +44,9 @@
     &:not(:last-child) {
       margin-right: 36px;
     }
+  }
+
+  &__shape {
+    @include pos(absolute, false, -80px, -120px, false, -1);    
   }
 }

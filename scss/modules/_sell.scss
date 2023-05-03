@@ -4,6 +4,7 @@
 
   &__wrapper {
     width: 1200px;
+    position: relative;
   }
 
   &__row {
@@ -180,5 +181,9 @@
     &--video {
       @include pos(absolute, 184px, 220px, false, false, 1000);
     }
+  }
+
+  &__shape {
+    @include pos(absolute, false, -125px, 70px, false, -1);      
   }
 }

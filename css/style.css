@@ -790,6 +790,7 @@ body {
 .header__wrapper {
   width: 1440px;
   max-width: 1440px;
+  position: relative;
 }
 
 .header__row {
@@ -945,11 +946,17 @@ body {
   margin-right: 32px;
 }
 
+.header__shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .recommendation {
   height: 662px;
   margin-bottom: 120px;
   border-bottom: 1px solid black;
-  background-color: #E0E3EB;
 }
 
 .sell {
@@ -959,6 +966,7 @@ body {
 
 .sell__wrapper {
   width: 1200px;
+  position: relative;
 }
 
 .sell__row {
@@ -1172,6 +1180,13 @@ body {
   z-index: 1000;
 }
 
+.sell__shape {
+  position: absolute;
+  right: -125px;
+  bottom: 70px;
+  z-index: -1;
+}
+
 .review {
   margin-bottom: 120px;
 }
@@ -1271,6 +1286,7 @@ body {
 
 .tips__wrapper {
   flex-direction: column;
+  position: relative;
 }
 
 .tips__column {
@@ -1303,6 +1319,13 @@ body {
 .tips__row {
   width: 100%;
   margin: 0;
+}
+
+.tips__shape {
+  position: absolute;
+  top: -140px;
+  left: -120px;
+  z-index: -1;
 }
 
 .subscribe {
@@ -1424,6 +1447,7 @@ body {
 
 .footer__wrapper {
   justify-content: space-between;
+  position: relative;
 }
 
 .footer__column {
@@ -1462,4 +1486,11 @@ body {
 
 .footer__social-media-link:not(:last-child) {
   margin-right: 36px;
+}
+
+.footer__shape {
+  position: absolute;
+  right: -80px;
+  bottom: -120px;
+  z-index: -1;
 }
