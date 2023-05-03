@@ -15,6 +15,12 @@
       width: 320px;
       margin-right: 173px;
     }
+
+    &:hover {
+      & h3 {
+        color: $Forest-Green;
+      }
+    }
   }
 
   &__company-logo {

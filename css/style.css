@@ -382,6 +382,10 @@ body {
   margin-bottom: 18px;
 }
 
+.list__link:hover {
+  color: #0E1735;
+}
+
 .company-logo__icon {
   margin-right: 7px;
 }
@@ -1575,6 +1579,10 @@ body {
 .footer__column--info {
   width: 320px;
   margin-right: 173px;
+}
+
+.footer__column:hover h3 {
+  color: #047857;
 }
 
 .footer__company-logo {
