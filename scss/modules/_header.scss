@@ -162,4 +162,54 @@
   &__shape {
     @include pos(absolute, 0, false, false, 0, -1);      
   }
+
+  &__border-line {
+    &--1 {
+      width: 66.5px;
+      height: 91.5px;
+      @include pos(absolute, 139.5px, false, false, 82px);
+      border-top: 4px solid $Red;
+      border-left: 4px solid $Red;
+      border-top-left-radius: 6px;
+    }
+
+    &--2 {
+      width: 39.5px;
+      height: 97px;
+      @include pos(absolute, 200.5px, 124.5px);
+      border-top: 4px solid $Orange;
+      border-right: 4px solid $Orange;
+      border-top-right-radius: 4px;
+    }
+
+    &--3 {
+      width: 42.5px;
+      height: 75px;
+      @include pos(absolute, false, 113px, 239px);
+      border-top: 4px solid $Royal-Blue;
+      border-right: 4px solid $Royal-Blue;
+      border-top-right-radius: 6px;
+    }
+
+    &--4 {
+      width: 44.5px;
+      height: 4px;
+      background-color: $Pale-Mint;
+      @include pos(absolute, 367px, false, false, 244px);
+    }
+
+    &--5 {
+      width: 14.5px;
+      height: 4px;
+      background-color: $Pale-Mint;
+      @include pos(absolute, 367px, false, false, 304.5px);
+    }
+
+    &--6 {
+      width: 31.5px;
+      height: 4px;
+      background-color: $Pale-Mint;
+      @include pos(absolute, 367px, false, false, 334.5px);
+    }
+  }
 }
