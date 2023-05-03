@@ -1292,6 +1292,16 @@ body {
   margin-right: 56px;
 }
 
+.review__slide-pic {
+  border-radius: 8px;
+}
+
+.review__slide:hover > img {
+  filter: brightness(1.08);
+  border: 3px solid #888B97;
+  border-radius: 16px;
+}
+
 .review-block {
   position: absolute;
   top: 256px;
@@ -1330,6 +1340,14 @@ body {
   position: relative;
 }
 
+.review-block__wrapper:hover svg {
+  filter: brightness(1.08);
+}
+
+.review-block__wrapper:hover img {
+  filter: brightness(1.08);
+}
+
 .review__rating {
   height: 28px;
   display: flex;
@@ -1340,8 +1358,7 @@ body {
 }
 
 .review__star-icon {
-  width: 23px;
-  height: 23px;
+  fill: #F59E0B;
   margin-right: 18.5px;
 }
 
