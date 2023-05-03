@@ -394,7 +394,11 @@ body {
   text-transform: capitalize;
 }
 
-.company-logo__title:hover {
+.company-logo:hover svg {
+  filter: brightness(1.08);
+}
+
+.company-logo:hover strong {
   color: #047857;
 }
 
