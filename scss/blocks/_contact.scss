@@ -55,4 +55,10 @@
       line-height: 22px;
     }
   }
+
+  &:hover {
+    & img {
+      filter: brightness(1.08);
+    }
+  }
 }

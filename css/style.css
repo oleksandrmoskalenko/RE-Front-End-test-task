@@ -575,6 +575,10 @@ body {
   line-height: 22px;
 }
 
+.contact-block:hover img {
+  filter: brightness(1.08);
+}
+
 .article-block {
   display: flex;
   margin-bottom: 44px;
@@ -1228,6 +1232,15 @@ body {
 
 .sell__house-pic {
   border-radius: 4px;
+}
+
+.sell__house-pic:hover {
+  filter: brightness(1.08);
+  border-radius: 12px;
+}
+
+.sell__house-pic--small:hover {
+  border-radius: 8px;
 }
 
 .sell__house-pic--1 {

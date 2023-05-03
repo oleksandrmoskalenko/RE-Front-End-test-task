@@ -166,6 +166,17 @@
   &__house-pic {
     border-radius: 4px;
 
+    &:hover {
+      filter: brightness(1.08);
+      border-radius: 12px;
+    }
+
+    &--small {
+      &:hover {
+        border-radius: 8px;
+      }
+    }
+
     &--1 {
       @include pos(absolute, false, false, 0, 72px, 2);
     }
