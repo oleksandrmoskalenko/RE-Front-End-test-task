@@ -1,6 +1,86 @@
 .recommendation {
   height: 662px;
   margin-bottom: 120px;
-  
-  border-bottom: 1px solid black;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__slide {
+    width: 340px;
+    margin-right: 40px;
+
+    &-wrapper {
+      position: relative;
+    }
+
+    &-pic {
+      border-radius: 24px;
+      margin-bottom: 24px;
+    }
+  }
+
+  &-block {
+    &__wrapper {
+      margin-bottom: 24px;
+    }
+
+    &__subtitle {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      text-transform: capitalize;
+      color: $Black;
+      margin-bottom: 8px;
+    }
+
+    &__price {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: $Dark-Grey;
+    }
+
+    &__marker {
+      height: 34px;
+      display: flex;
+      padding: 8px 16px;
+      border-radius: 32px;
+      @include pos(absolute, false, false, 50px, 16px);
+
+      &--popular {
+        background-color: $Misty-Rose;
+        color: $Red;
+      }
+
+      &--new-house {
+        background-color: $Lavender-Blue2;
+        color: $Navy-Blue;
+      }
+
+      &--best-deals {
+        background-color: $Pale-Mint;
+        color: $Forest-Green;
+      }
+
+      &-icon {
+        margin-right: 12px;
+      }
+
+      &-category {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+      }
+    }
+  }
 }
