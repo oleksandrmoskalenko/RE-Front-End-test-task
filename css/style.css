@@ -556,6 +556,10 @@ body {
   margin-right: 59px;
 }
 
+.contact-block__person-info--recommendation {
+  margin-right: 0;
+}
+
 .contact-block__name {
   font-style: normal;
   font-weight: 500;
@@ -1057,6 +1061,11 @@ body {
   margin-bottom: 40px;
 }
 
+.recommendation__slider {
+  width: 1200px;
+  height: 552px;
+}
+
 .recommendation__slide {
   width: 340px;
   margin-right: 40px;
@@ -1128,6 +1137,16 @@ body {
   font-size: 14px;
   line-height: 18px;
   text-transform: capitalize;
+}
+
+.recommendation__contact-block {
+  align-items: center;
+}
+
+.recommendation__person-pic {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
 }
 
 .sell {

@@ -11,6 +11,11 @@
     margin-bottom: 40px;
   }
 
+  &__slider {
+    width: 1200px;
+    height: 552px;
+  }
+
   &__slide {
     width: 340px;
     margin-right: 40px;
@@ -82,5 +87,15 @@
         text-transform: capitalize;
       }
     }
+  }
+
+  &__contact-block {
+    align-items: center;
+  }
+
+  &__person-pic {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
   }
 }

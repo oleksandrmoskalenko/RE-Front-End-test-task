@@ -27,6 +27,10 @@
     display: flex;
     flex-direction: column;
     margin-right: 59px;
+
+    &--recommendation {
+      margin-right: 0;
+    }
   }
 
   &__name {
