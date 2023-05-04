@@ -5,6 +5,8 @@
   &--big {
     flex-direction: column;
     margin: 0;
+
+    
   }
 
   &__img {
@@ -78,6 +80,10 @@
       font-size: 24px;
       line-height: 32px;
       margin-bottom: 16px;
+
+      @media (max-width: 991.98px) {
+        text-align: center;
+      }
     }
   }
 
@@ -89,6 +95,10 @@
     line-height: 24px;
     color: $Pale-Violet;
     opacity: 0.75;
+
+    @media (max-width: 991.98px) {
+      text-align: center;
+    }
   }
 
   &__date {
