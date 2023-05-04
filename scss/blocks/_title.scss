@@ -46,5 +46,10 @@
     font-size: 32px;
     line-height: 40px;
     color: $Midnight-Blue;
+
+    @media (max-width: 767.98px) {
+      font-size: 26.5px;
+      line-height: 33.5px;
+    }
   }
 }
