@@ -7,56 +7,77 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   
   <title>Landing Test for Front-End</title>
 </head>
 <body>
-  <header class="header" id="header">
+  <!-- <header class="header" id="header">
     <div class="container wrapper">
       <nav class="navigation" id="navigation">
+
         <div class="company-logo navigation__company-logo">
           <a href="#footer" class="company-logo__link">
+
             <svg width="36" height="36" viewbox="0 0 36 36" fill="none" 
                     class="company-logo__icon" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 4C0 1.79086 1.79086 0 4 0H28C30.2091 0 32 1.79086 32 4V8C32 21.2548 21.2548 32 8 32H4C1.79086 32 0 30.2091 0 28V4Z" fill="#F59E0B"/>
                 <path d="M4 8C4 5.79086 5.79086 4 8 4H32C34.2091 4 36 5.79086 36 8V12C36 25.2548 25.2548 36 12 36H8C5.79086 36 4 34.2091 4 32V8Z" fill="#4BE4C9"/>
             </svg>
+
             <strong class="company-logo__title">Hounter</strong>
+
           </a>
         </div>
+
         <ul class="menu">
+
           <li class="menu__item"><a href="#review" class="menu__link">About Us</a></li>
           <li class="menu__item"><a href="#tips" class="menu__link">Article</a></li>
+
           <li class="menu__item menu__item--dropdown">
             <select name="property" id="#property" class="menu__select">
+
               <option selected class="menu__option" hidden>
                 <a href="#" class="menu__link">Property</a>
               </option>
+
               <option value="house" class="menu__option">
                 <a href="#recommendation" class="menu__link">House</a>
               </option>
+
               <option value="villa" class="menu__option">
                 <a href="#recommendation" class="menu__link">Villa</a>
               </option>
+
               <option value="apartment" class="menu__option">
                 <a href="#recommendation" class="menu__link">Apartment</a>
               </option>
+
             </select>
           </li>
+
           <li class="menu__item"><a href="#" class="menu__link">Sign Up!</a></li>
+
         </ul>
+
       </nav>
     </div>
+
     <div class="container wrapper header__wrapper">
       <div class="row header__row">
+
         <div class="col-6 header__column header__column--left">
+
           <h1 class="header__title">
             find the place to live <span class="header__title header__title--outline">your dreams</span> easily here
           </h1>
+
           <p class="header__text">
             Everything you need about finding your place to live will be here, where it will be easier for you
           </p>
+
           <form action="#" method="get" class="input__form header__form">
             <input type="text" class="input__field header__input"
                     placeholder="Search for the location you want!">
@@ -69,14 +90,18 @@
           </form>
 
           <h3 class="header__subtitle">Our partnership</h3>
+
           <div class="header__partners-block">
             <img src="img/header/partners-logos/traveloka.png" alt="traveloka-logo" class="header__logo">
             <img src="img/header/partners-logos/tiket.png" alt="tiket-logo" class="header__logo">
             <img src="img/header/partners-logos/airbnb.png" alt="airbnb-logo" class="header__logo">
             <img src="img/header/partners-logos/trip-advisor.png" alt="trip-advisor-logo" class="header__logo">
           </div>
+
         </div>
+
         <div class="col-6 header__column header__column--right">
+          
           <div class="swiper header__slider">
             <div class="swiper-wrapper header__slider-wrapper">
               <div class="swiper-slide header__slide">
@@ -161,22 +186,28 @@
               </div>
             </div>
           </div>
+
           <div class="header__border-line header__border-line--1"></div>
           <div class="header__border-line header__border-line--2"></div>
           <div class="header__border-line header__border-line--3"></div>
           <div class="header__border-line header__border-line--4"></div>
           <div class="header__border-line header__border-line--5"></div>
           <div class="header__border-line header__border-line--6"></div>
+
         </div>
+
       </div>
+
       <img src="img/header/shapes/header-shape.png" alt="shape" 
             class="header__shape">
+
     </div>
   </header>
 
   <main class="main" id="main">
     <section class="recommendation" id="recommendation">
       <div class="container wrapper recommendation__wrapper">
+
         <div class="title-block title-block--left">
           <div class="title-block__wrapper">
             <div class="title-block__line title-block__line--left"></div>
@@ -187,6 +218,7 @@
 
         <div class="swiper recommendation__slider">
           <div class="swiper-wrapper recommendation__slider-wrapper">
+
             <div class="swiper-slide recommendation__slide"
             data-filter="house">
               <div class="recommendation__slide-wrapper">
@@ -217,6 +249,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="house">
               <div class="recommendation__slide-wrapper">
@@ -247,6 +280,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="apartment">
               <div class="recommendation__slide-wrapper">
@@ -277,6 +311,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="villa">
               <div class="recommendation__slide-wrapper">
@@ -307,6 +342,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="house">
               <div class="recommendation__slide-wrapper">
@@ -337,6 +373,7 @@
                 </div>
               </div>
             </div>
+            
             <div class="swiper-slide recommendation__slide"
             data-filter="apartment">
               <div class="recommendation__slide-wrapper">
@@ -367,6 +404,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="villa">
               <div class="recommendation__slide-wrapper">
@@ -397,6 +435,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="apartment">
               <div class="recommendation__slide-wrapper">
@@ -427,6 +466,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="apartment">
               <div class="recommendation__slide-wrapper">
@@ -457,6 +497,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="villa">
               <div class="recommendation__slide-wrapper">
@@ -487,6 +528,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="house">
               <div class="recommendation__slide-wrapper">
@@ -517,6 +559,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="villa">
               <div class="recommendation__slide-wrapper">
@@ -547,6 +590,7 @@
                 </div>
               </div>
             </div>
+
             <div class="swiper-slide recommendation__slide"
             data-filter="apartment">
               <div class="recommendation__slide-wrapper">
@@ -577,6 +621,7 @@
                 </div>
               </div>
             </div>
+
           </div>
           <div class="recommendation__button-prev">
             <svg width="9" height="18" viewbox="0 0 9 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -595,13 +640,16 @@
             <button class="recommendation__button recommendation__button--apartment">Apartment</button>
           </div>
         </div>
+
       </div>
     </section>
 
     <section class="sell" id="sell">
       <div class="container wrapper sell__wrapper">
         <div class="row sell__row">
+
           <div class="col-6 sell__column sell__column--left">
+            
             <div class="title-block title-block--left">
               <div class="title-block__wrapper">
                 <div class="title-block__line title-block__line--left"></div>
@@ -609,18 +657,25 @@
               </div>
               <h2 class="title-block__title sell__title">Let’s tour and see our house!</h2>
             </div>
+
             <p class="sell__text">
               Houses recommended by our partners that have been curated to become the home of your dreams!
             </p>
+
             <h3 class="sell__subtitle">House detail</h3>
+
             <div class="sell__block">
               <div class="col-6 sell__block-item">
+                
                 <div class="sell__details-icon-wrapper">
                   <img src="img/sell/icons/sell-icon-1.png" alt="icon" 
                       class="sell__details-icon">
                 </div>
+
                 <p class="sell__details-text">4 bedrooms</p>
+
               </div>
+
               <div class="col-6 sell__block-item">
                 <div class="sell__details-icon-wrapper">
                   <img src="img/sell/icons/sell-icon-2-1.png" alt="icon" 
@@ -638,8 +693,10 @@
                       <img src="img/sell/icons/sell-icon-2-5.png" alt="icon" 
                       class="sell__details-icon sell__details-icon--2-7">
                 </div>
+
                 <p class="sell__details-text">2 bathrooms</p>
               </div>
+
               <div class="col-6 sell__block-item">
                 <div class="sell__details-icon-wrapper">
                   <img src="img/sell/icons/sell-icon-3-1.png" alt="icon" 
@@ -647,8 +704,10 @@
                   <img src="img/sell/icons/sell-icon-3-2.png" alt="icon" 
                       class="sell__details-icon sell__details-icon--3-2">
                 </div>
+
                 <p class="sell__details-text">1 carport</p>
               </div>
+              
               <div class="col-6 sell__block-item">
                 <div class="sell__details-icon-wrapper">
                   <img src="img/sell/icons/sell-icon-4-1.png" alt="icon" 
@@ -656,72 +715,90 @@
                   <img src="img/sell/icons/sell-icon-4-2.png" alt="icon" 
                       class="sell__details-icon sell__details-icon--4-2">
                 </div>
+
                 <p class="sell__details-text">2 floors</p>
               </div>
             </div>
+
             <div class="sell__line"></div>
             <div class="contact-block sell__contact-block">
+              
               <div class="contact-block__icon-wrapper">
                 <img src="img/sell/sell-manager-pic.png" alt="person-pic" class="contact-block__icon">
               </div>
-              <div class="contact-block__person-info contact-block__person-info--recommendation">
+
+              <div class="contact-block__person-info">
                 <h4 class="contact-block__name">Dianne Russell</h4>
                 <p class="contact-block__job-title">Manager director</p>
               </div>
+
               <div class="sell__button-wrapper">
                 <button class="input__button sell__button">
                   Contact now
                 </button>
                 <img src="img/sell/icons/sell-icon-5.png" alt="tel-icon">
               </div>
+
             </div>
           </div>
+
           <div class="col-6 sell__column sell__column--right">
             <div class="sell__gallery">
               <div class="swiper sell__slider">
                 <div class="swiper-wrapper sell__slider-wrapper">
+
                   <div class="swiper-slide sell__slide">
                     <img src="img/sell/house/sell-house-pic-1.png" alt="house-pic" 
                           class="sell__house-pic">
                     <img src="img/sell/sell-video-icon.png" alt="video-icon"
                           class="sell__house-pic sell__house-pic--video">
                   </div>
+
                   <div class="swiper-slide sell__slide">
                     <img src="img/sell/house/sell-house-pic-2.jpg" alt="house-pic" 
                           class="sell__house-pic">
                     <img src="img/sell/sell-video-icon.png" alt="video-icon"
                           class="sell__house-pic sell__house-pic--video">
                   </div>
+
                   <div class="swiper-slide sell__slide">
                     <img src="img/sell/house/sell-house-pic-3.jpg" alt="house-pic" 
                           class="sell__house-pic">
                     <img src="img/sell/sell-video-icon.png" alt="video-icon"
                           class="sell__house-pic sell__house-pic--video">
                   </div>
+
                   <div class="swiper-slide sell__slide">
                     <img src="img/sell/house/sell-house-pic-4.jpg" alt="house-pic" 
                           class="sell__house-pic">
                     <img src="img/sell/sell-video-icon.png" alt="video-icon"
                           class="sell__house-pic sell__house-pic--video">
                   </div>
+
                 </div>
               </div>
+
               <img src="img/sell/house/sell-house-pic-5.png" alt="house-pic" 
                     class="sell__house-pic sell__house-pic--1">
               <img src="img/sell/house/sell-house-pic-6.png" alt="house-pic" 
                     class="sell__house-pic sell__house-pic--small sell__house-pic--2">
               <img src="img/sell/house/sell-house-pic-7.png" alt="house-pic" 
                     class="sell__house-pic sell__house-pic--small sell__house-pic--3">
+
             </div>
           </div>
+
         </div>
+
         <img src="img/sell/shapes/sell-shape.png" alt="shape" 
             class="sell__shape">
+
       </div>
     </section>
 
     <section class="review" id="review">
       <div class="container wrapper review__wrapper">
+
         <div class="title-block">
           <div class="title-block__wrapper">
             <div class="title-block__line"></div>
@@ -732,6 +809,7 @@
 
         <div class="swiper review__slider">
           <div class="swiper-wrapper review__slider-wrapper">
+
             <div class="swiper-slide review__slide">
               <img src="img/review//houses/review-house-1.png" alt="review-house" 
                     class="review__slide-pic">
@@ -765,6 +843,7 @@
                   </div>
               </div>
             </div>
+
             <div class="swiper-slide review__slide">
               <img src="img/review//houses/review-house-2.png" alt="review-house" 
                     class="review__slide-pic">
@@ -798,6 +877,7 @@
                   </div>
               </div>
             </div>
+
             <div class="swiper-slide review__slide">
               <img src="img/review//houses/review-house-3.png" alt="review-house" 
                     class="review__slide-pic">
@@ -831,6 +911,7 @@
                   </div>
               </div>
             </div>
+
             <div class="swiper-slide review__slide">
               <img src="img/review//houses/review-house-1.png" alt="review-house" 
                     class="review__slide-pic">
@@ -864,6 +945,7 @@
                   </div>
               </div>
             </div>
+
             <div class="swiper-slide review__slide">
               <img src="img/review//houses/review-house-2.png" alt="review-house" 
                     class="review__slide-pic">
@@ -897,6 +979,7 @@
                   </div>
               </div>
             </div>
+
             <div class="swiper-slide review__slide">
               <img src="img/review//houses/review-house-3.png" alt="review-house" 
                     class="review__slide-pic">
@@ -930,9 +1013,12 @@
                   </div>
               </div>
             </div>
+
           </div>
+
           <div class="swiper-pagination"></div>
         </div>
+
       </div>
     </section>
 
@@ -949,25 +1035,31 @@
             Find out more about selling and buying homes
           </h2>
         </div>
+
         <button class="input__button tips__button">
           More article
         </button>
+
         <div class="row tips__row">
           <div class="col-6 tips__column tips__column--left">
             <article class="article-block">
               <img src="img/tips/house/tips-house-pic-1.png" alt="house" 
                     class="article-block__img">
+
               <div class="article-block__content">
                 <div class="article-block__author-wrapper">
                   <div class="article-block__author-pic-wrapper">
                     <img src="img/tips/icons/tips-author-pic-1.png" alt="author-pic" 
                         class="article-block__author-pic">
                   </div>
+
                   <div class="article-block__author-name">Dianne Russell</div>
                 </div>
+
                 <h3 class="article-block__title">
                   The things we need to check when we want to buy a house
                 </h3>
+
                 <div class="article-block__date-wrapper">
                   <svg width="20" height="20" viewbox="0 0 20 20" fill="none" 
                         class="article-block__time-icon" xmlns="http://www.w3.org/2000/svg">
@@ -983,6 +1075,7 @@
             <article class="article-block">
               <img src="img/tips/house/tips-house-pic-2.png" alt="house" 
                     class="article-block__img">
+
               <div class="article-block__content">
                 <div class="article-block__author-wrapper">
                   <div class="article-block__author-pic-wrapper">
@@ -991,16 +1084,21 @@
                   </div>
                   <div class="article-block__author-name">Courtney Henry</div>
                 </div>
+
                 <h3 class="article-block__title">
                   7 Ways to distinguish the quality of the house we want to buy
                 </h3>
+
                 <div class="article-block__date-wrapper">
                   <svg width="20" height="20" viewbox="0 0 20 20" fill="none" 
                         class="article-block__time-icon" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.99 0C4.47 0 0 4.48 0 10C0 15.52 4.47 20 9.99 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 9.99 0ZM14 14C13.9075 14.0927 13.7976 14.1663 13.6766 14.2164C13.5557 14.2666 13.426 14.2924 13.295 14.2924C13.164 14.2924 13.0343 14.2666 12.9134 14.2164C12.7924 14.1663 12.6825 14.0927 12.59 14L9.3 10.71C9.20551 10.6174 9.13034 10.5069 9.07885 10.3851C9.02735 10.2632 9.00055 10.1323 9 10V6C9 5.45 9.45 5 10 5C10.55 5 11 5.45 11 6V9.59L14 12.59C14.39 12.98 14.39 13.61 14 14Z"/>
                   </svg>
+
                   <p class="article-block__reading-time">6 min read</p>
+
                   <span class="article-block__line-symbol"> | </span>
+
                   <date datetime="2021-04-25"
                           class="article-block__date">24 Apr 2021</date>
                 </div>
@@ -1009,6 +1107,7 @@
             <article class="article-block">
               <img src="img/tips/house/tips-house-pic-3.png" alt="house" 
                     class="article-block__img">
+
               <div class="article-block__content">
                 <div class="article-block__author-wrapper">
                   <div class="article-block__author-pic-wrapper">
@@ -1017,26 +1116,33 @@
                   </div>
                   <div class="article-block__author-name">Darlene Robertson</div>
                 </div>
+
                 <h3 class="article-block__title">
                   The best way to know the quality of the house we want to buy
                 </h3>
+
                 <div class="article-block__date-wrapper">
                   <svg width="20" height="20" viewbox="0 0 20 20" fill="none" 
                         class="article-block__time-icon" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.99 0C4.47 0 0 4.48 0 10C0 15.52 4.47 20 9.99 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 9.99 0ZM14 14C13.9075 14.0927 13.7976 14.1663 13.6766 14.2164C13.5557 14.2666 13.426 14.2924 13.295 14.2924C13.164 14.2924 13.0343 14.2666 12.9134 14.2164C12.7924 14.1663 12.6825 14.0927 12.59 14L9.3 10.71C9.20551 10.6174 9.13034 10.5069 9.07885 10.3851C9.02735 10.2632 9.00055 10.1323 9 10V6C9 5.45 9.45 5 10 5C10.55 5 11 5.45 11 6V9.59L14 12.59C14.39 12.98 14.39 13.61 14 14Z"/>
                   </svg>
+
                   <p class="article-block__reading-time">2 min read</p>
+
                   <span class="article-block__line-symbol"> | </span>
+
                   <date datetime="2021-04-25"
                           class="article-block__date">24 Apr 2021</date>
                 </div>
               </div>
             </article>
           </div>
+
           <div class="col-6 tips__column tips__column--right">
             <article class="article-block article-block--big">
               <img src="img/tips/house/tips-house-pic-big-1.png" alt="house" 
                     class="article-block__img article-block__img--big">
+
               <div class="article-block__content">
                 <div class="article-block__author-wrapper">
                   <div class="article-block__author-pic-wrapper">
@@ -1045,19 +1151,25 @@
                   </div>
                   <div class="article-block__author-name">Cameron Williamson</div>
                 </div>
+
                 <h3 class="article-block__title article-block__title--big">
                   12 Things to know before buying a house
                 </h3>
+
                 <p class="article-block__description">
                   Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house
                 </p>
+
                 <div class="article-block__date-wrapper">
                   <svg width="20" height="20" viewbox="0 0 20 20" fill="none" 
                         class="article-block__time-icon" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.99 0C4.47 0 0 4.48 0 10C0 15.52 4.47 20 9.99 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 9.99 0ZM14 14C13.9075 14.0927 13.7976 14.1663 13.6766 14.2164C13.5557 14.2666 13.426 14.2924 13.295 14.2924C13.164 14.2924 13.0343 14.2666 12.9134 14.2164C12.7924 14.1663 12.6825 14.0927 12.59 14L9.3 10.71C9.20551 10.6174 9.13034 10.5069 9.07885 10.3851C9.02735 10.2632 9.00055 10.1323 9 10V6C9 5.45 9.45 5 10 5C10.55 5 11 5.45 11 6V9.59L14 12.59C14.39 12.98 14.39 13.61 14 14Z"/>
                   </svg>
+
                   <p class="article-block__reading-time">8 min read</p>
+
                   <span class="article-block__line-symbol"> | </span>
+
                   <date datetime="2021-04-25"
                           class="article-block__date">25 Apr 2021</date>
                 </div>
@@ -1065,8 +1177,10 @@
             </article>
           </div>
         </div>
+
         <img src="img/tips/shapes/tips-shape.png" alt="shape" 
             class="tips__shape">
+
       </div>
     </section>
 
@@ -1090,31 +1204,37 @@
 
         <img class="subscribe__img subscribe__img--pic-1" 
               src="img/subscribe/pics/subscribe-pic-1.png" alt="pic-1">
+
         <div class="subscribe__img-wrapper subscribe__img-wrapper--pic-2">
           <img class="subscribe__img" 
           src="img/subscribe/pics/subscribe-pic-2.png" alt="pic-2">
         </div>
+
         <div class="subscribe__img-wrapper  subscribe__img-wrapper--pic-3">
           <img class="subscribe__img" 
           src="img/subscribe/pics/subscribe-pic-3.png" alt="pic-3">
         </div>
+
         <img class="subscribe__img subscribe__img--pic-4" 
               src="img/subscribe/pics/subscribe-pic-4.png" alt="pic-4">
         <img class="subscribe__img subscribe__img--pic-5" 
               src="img/subscribe/pics/subscribe-pic-5.png" alt="pic-5">
+
         <div class="subscribe__img-wrapper  subscribe__img-wrapper--pic-6">
           <img class="subscribe__img" 
           src="img/subscribe/pics/subscribe-pic-6.png" alt="pic-6">
         </div>
+
         <div class="subscribe__img-wrapper subscribe__img-wrapper--pic-7">
           <img class="subscribe__img" 
           src="img/subscribe/pics/subscribe-pic-7.png" alt="pic-7">
         </div>
+
         <img class="subscribe__img subscribe__img--pic-8" 
               src="img/subscribe/pics/subscribe-pic-8.png" alt="pic-8">
       </div>
     </section>
-  </main>
+  </main> -->
 
   <footer class="footer" id="footer">
     <div class="container wrapper footer__wrapper">
@@ -1153,6 +1273,7 @@
             </a>
           </div>
         </div>
+
         <div class="footer__column">
           <h3 class="footer__subtitle">Property</h3>
           <ul class="footer__list list">
@@ -1167,6 +1288,7 @@
             </li>
           </ul>
         </div>
+
         <div class="footer__column">
           <h3 class="footer__subtitle">Article</h3>
           <ul class="footer__list list">
@@ -1184,19 +1306,23 @@
             </li>
           </ul>
         </div>
+
         <div class="footer__column">
           <h3 class="footer__subtitle">Contact</h3>
+
           <ul class="footer__list list">
             <li class="list__item">
               <a href="#" class="list__link">
                 2464 Royal Ln. Mesa, New Jersey 45463
               </a>
             </li>
+
             <li class="list__item">
               <a href="tel:+6715550110" class="list__link">
                 (671) 555-0110
               </a>
             </li>
+
             <li class="list__item">
               <a href="mailto:info@hounter.com" class="list__link">
                 info@hounter.com
@@ -1204,6 +1330,7 @@
             </li>
           </ul>
         </div>
+
         <img src="img/footer/shapes/footer-shape.png" alt="shape" 
             class="footer__shape">
       </div>
