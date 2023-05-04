@@ -624,6 +624,12 @@ body {
   margin-right: 59px;
 }
 
+@media (max-width: 1199.98px) {
+  .contact-block__person-info {
+    margin-right: 40px;
+  }
+}
+
 .contact-block__person-info--recommendation {
   margin-right: 0;
 }
@@ -1797,10 +1803,6 @@ body {
     width: 12.5px;
     height: 15.5px;
   }
-}
-
-.sell__contact-block {
-  align-items: center;
 }
 
 .sell__gallery {
