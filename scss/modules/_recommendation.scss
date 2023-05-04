@@ -3,6 +3,10 @@
   margin-bottom: 120px;
   position: relative;
 
+  @media (max-width: 1399.98px) {
+    height: 772px;
+  }
+
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -17,6 +21,10 @@
     height: 662px;
     @include pos(absolute, 0, false, false, calc(50% - 600px));
     padding-top: 110px;
+
+    @media (max-width: 1399.98px) {
+      top: 110px;
+    }
   }
 
   &__slide {
@@ -36,6 +44,10 @@
   &__buttons-wrapper {
     @include pos(absolute, 18px, false, false, 440px, 2);
     width: max-content;
+
+    @media (max-width: 1199.98px) {
+      left: 340px;
+    }
   }
 
   &__button {
@@ -121,10 +133,26 @@
 
     &-prev {
       @include pos(absolute, 18px, 76px);
+
+      @media (max-width: 1399.98px) {
+        left: 1000px;
+      }
+
+      @media (max-width: 1199.98px) {
+        left: 900px;
+      }
     }
 
     &-next {
       @include pos(absolute, 18px, 0);
+
+      @media (max-width: 1399.98px) {
+        left: 1076px;
+      }
+
+      @media (max-width: 1199.98px) {
+        left: 976px;
+      }
     }
   }
 

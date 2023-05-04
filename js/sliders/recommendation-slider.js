@@ -1,8 +1,9 @@
 const recommendationSwiper = new Swiper('.recommendation__slider', {
   direction: 'horizontal',
-  slidesPerView: 'auto',
-  grabCursor: true,
+  slidesPerView: 3,
   spaceBetween: 0,
+  grabCursor: true,
+  
   loop: true,
 
   autoplay: {
@@ -13,6 +14,15 @@ const recommendationSwiper = new Swiper('.recommendation__slider', {
     nextEl: '.recommendation__button-next',
     prevEl: '.recommendation__button-prev',
   },
+
+  breakpoints: {
+    320: {
+      centeredSlides: true,
+    },
+    1200: {
+      centeredSlides: false,
+    }
+  }
 });
 
 function filterSlides(button) {
