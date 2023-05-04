@@ -3,6 +3,11 @@
     height: 54px;
     width: 496px;
     position: relative;
+
+    @media (max-width: 767.98px) {
+      height: 41.5px;
+      width: 381.5px;
+    }
   }
 
   &__field {
@@ -14,6 +19,14 @@
     font-weight: 400;
     padding-left: 64px;
     color: $Grey;
+
+    @media (max-width: 767.98px) {
+      height: 41.5px;
+      width: 381.5px;
+      border-radius: 20px;
+      font-size: 10.5px;
+      padding-left: 49px;
+    }
 
     &::placeholder {
       color: $Grey;
@@ -58,6 +71,15 @@
     text-transform: capitalize;
     color: $White;
     @include pos(absolute, 4px, 4px);
+
+    @media (max-width: 767.98px) {
+      width: 99px;
+      height: 35px;
+      border-radius: 17px;
+      font-size: 10.5px;
+
+      @include pos(absolute, 3px, 3px);
+    }
 
     &:hover {
       background-color: $Forest-Green;

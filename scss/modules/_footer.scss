@@ -1,6 +1,16 @@
 .footer {
   height: 180px;
 
+  @media (max-width: 991.98px) {
+    height: 220px;
+    overflow: hidden;
+  }
+
+  @media (max-width: 767.98px) {
+    height: 280px;
+    overflow: hidden;
+  }
+
   &__wrapper {
     justify-content: space-between;
     position: relative;
@@ -11,9 +21,30 @@
     font-weight: 300;
     color: $Grey;
 
+    @media (max-width: 991.98px) {
+      font-size: 11.5px;
+      margin-right: 10px;
+    }
+
     &--info {
       width: 320px;
       margin-right: 173px;
+
+      @media (max-width: 1199.98px) {
+        width: 267px;
+        margin-right: 144px;
+      }
+
+      @media (max-width: 991.98px) {
+        width: 222.5px;
+        margin-right: 120px;
+      }
+
+      @media (max-width: 767.98px) {
+        width: 171px;
+        margin-right: 92.5px;
+      }
+
     }
 
     &:hover {
@@ -33,6 +64,18 @@
     font-weight: 600;
     color: $Black;
     margin-bottom: 24px;
+
+    @media (max-width: 991.98px) {
+      font-size: 15px;
+      line-height: 18.75px;
+      margin-bottom: 16.5px;
+    }
+
+    @media (max-width: 991.98px) {
+      font-size: 11.5px;
+      line-height: 14.5px;
+      margin-bottom: 12.5px;
+    }
   }
 
   &__text {
@@ -45,10 +88,18 @@
   &__social-media-link {
     &:first-child{
       margin-left: 9px;
+
+      @media (max-width: 991.98px) {
+        margin-left: 0;
+      }
     }
 
     &:not(:last-child) {
       margin-right: 36px;
+
+      @media (max-width: 991.98px) {
+        margin-right: 18px;
+      }
     }
   }
 

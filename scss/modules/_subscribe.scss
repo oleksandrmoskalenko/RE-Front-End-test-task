@@ -2,6 +2,15 @@
   height: 312px;
   margin-bottom: 120px;
 
+  @media (max-width: 991.98px) {
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: 767.98px) {
+    height: 312px;
+    margin-bottom: 30px;
+  }
+
   &__wrapper {
     background: url('../img/subscribe/subscribe-bg.png');
     background-size: cover;
@@ -21,14 +30,32 @@
     width: 425px;
     text-align: center;
     color: $Midnight-Blue;
-
     margin-bottom: 32px;
+
+    @media (max-width: 991.98px) {
+      font-size: 26.5px;
+      line-height: 40px;
+      width: 355px;
+      margin-bottom: 26.5px;
+    }
+
+    @media (max-width: 767.98px) {
+      font-size: 20.5px;
+      line-height: 31px;
+      width: 273px;
+      margin-bottom: 20.5px;
+    }
   }
 
   &__form {
     height: 54px;
     width: 496px;
     position: relative;
+
+    @media (max-width: 767.98px) {
+      height: 41.5px;
+      width: 381.5px;
+    }
   }
 
   &__icon {
@@ -46,6 +73,13 @@
     text-transform: capitalize;
     color: $White;
     @include pos(absolute, false, false, 4px, 363px);
+
+    @media (max-width: 767.98px) {
+      width: 99px;
+      height: 35px;
+      border-radius: 17px;
+      font-size: 10.5px;
+    }
   }
 
   &__img {
@@ -53,18 +87,74 @@
     &--pic {
       &-1 {
         @include pos(absolute, 38px, false, false, 44px);
+
+        @media (max-width: 1199.98px) {
+          left: 40px;
+        }
+
+        @media (max-width: 991.98px) {
+          top: 70px;
+          left: 30px;
+        }
+
+        @media (max-width: 767.98px) {
+          top: 50px;
+          left: 20px;
+        }
       }
   
       &-4 {
         @include pos(absolute, 178px, false, false, 195px);
+
+        @media (max-width: 1199.98px) {
+          left: 150px;
+        }
+
+        @media (max-width: 991.98px) {
+          top: 20px;
+          left: 450px;
+        }
+
+        @media (max-width: 767.98px) {
+          top: 20px;
+          left: 340px;
+        }
       }
   
       &-5 {
         @include pos(absolute, 44px, false, false, 930px);
+
+        @media (max-width: 1199.98px) {
+          left: 800px;
+        }
+
+        @media (max-width: 991.98px) {
+          top: 60px;
+          left: 585px;
+        }
+
+        @media (max-width: 767.98px) {
+          top: 60px;
+          left: 440px;
+        }
       }
   
       &-8 {
         @include pos(absolute, 197px, false, false, 1072px);
+
+        @media (max-width: 1199.98px) {
+          left: 880px;
+        }
+
+        @media (max-width: 991.98px) {
+          top: 225px;
+          left: 640px;
+        }
+
+        @media (max-width: 767.98px) {
+          top: 235px;
+          left: 460px;
+        }
       }
     }
 
@@ -76,18 +166,63 @@
       &--pic {
         &-2 {
           @include pos(absolute, 71px, false, false, 204px);
+
+          @media (max-width: 1199.98px) {
+            left: 189px;
+          }
+  
+          @media (max-width: 991.98px) {
+            top: 30px;
+          }
+
+          @media (max-width: 767.98px) {
+            left: 160px;
+          }
         }
     
         &-3 {
           @include pos(absolute, 173px, false, false, 67px);
+
+          @media (max-width: 991.98px) {
+            top: 25px;
+            left: 320px;
+          }
+
+          @media (max-width: 767.98px) {
+            top: 25px;
+            left: 250px;
+          }
         }
 
         &-6 {
           @include pos(absolute, 107px, false, false, 1082px);
+
+          @media (max-width: 1199.98px) {
+            left: 900px;
+          }
+
+          @media (max-width: 991.98px) {
+            top: 250px;
+            left: 40px;
+          }
         }
     
         &-7 {
           @include pos(absolute, 143px, false, false, 964px);
+
+          @media (max-width: 1199.98px) {
+            left: 800px;
+          }
+
+          @media (max-width: 991.98px) {
+            top: 255px;
+            left: 340px;
+          }
+
+          @media (max-width: 767.98px) {
+            top: 255px;
+            left: 270px;
+          }
         }
       }
 
@@ -100,5 +235,9 @@
 
   &__icon {
     fill: $Royal-Blue;
+
+    @media (max-width: 767.98px) {
+      @include pos(absolute, 14.5px, false, false, 20px);
+    }
   }
 }
