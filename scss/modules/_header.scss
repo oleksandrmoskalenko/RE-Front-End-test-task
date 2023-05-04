@@ -2,6 +2,7 @@
   position: relative;
   height: 720px;
   margin-bottom: 120px;
+  overflow: hidden;
 
   @media (max-width: 991.98px) {
     height: 1480px;
@@ -20,6 +21,8 @@
     @media (max-width: 991.98px) {
       width: 720px;
       max-width: 720px;
+      margin: 0 auto;
+      justify-content: center;
     }
   }
 
@@ -158,6 +161,10 @@
       -webkit-text-stroke: 1px $Midnight-Blue;
       -webkit-text-fill-color: transparent;
     }
+
+    @media (max-width: 991.98px) {
+      text-align: center;
+    }
   }
 
   &__text {
@@ -168,6 +175,10 @@
     color: $Pale-Violet;
     opacity: 0.75;
     margin-bottom: 32px;
+
+    @media (max-width: 991.98px) {
+      text-align: center;
+    }
   }
 
   &__form {
@@ -190,7 +201,7 @@
   }
 
   &__shape {
-    @include pos(absolute, 0, false, false, 0, -1);      
+    @include pos(absolute, 0, false, false, 0, -1);    
   }
 
   &__border-line {

@@ -1008,6 +1008,7 @@ body {
   position: relative;
   height: 720px;
   margin-bottom: 120px;
+  overflow: hidden;
 }
 
 @media (max-width: 991.98px) {
@@ -1033,6 +1034,8 @@ body {
   .header__wrapper {
     width: 720px;
     max-width: 720px;
+    margin: 0 auto;
+    justify-content: center;
   }
 }
 
@@ -1182,6 +1185,12 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 991.98px) {
+  .header__title {
+    text-align: center;
+  }
+}
+
 .header__text {
   font-style: normal;
   font-weight: 300;
@@ -1190,6 +1199,12 @@ body {
   color: #626687;
   opacity: 0.75;
   margin-bottom: 32px;
+}
+
+@media (max-width: 991.98px) {
+  .header__text {
+    text-align: center;
+  }
 }
 
 .header__form {
@@ -1953,6 +1968,7 @@ body {
 .tips {
   height: 753px;
   margin-bottom: 120px;
+  overflow: hidden;
 }
 
 .tips__wrapper {
@@ -2317,6 +2333,7 @@ body {
 
 .footer {
   height: 180px;
+  overflow: hidden;
 }
 
 @media (max-width: 991.98px) {
